@@ -4,11 +4,11 @@ function firstWord(s) {
 	if(s === ''){
 		return '';
 	}
-	const spaceIndex = s.indexOf('');
+	const spaceIndex = s.indexOf(' ');
 	if(spaceIndex===-1){
 		return s;
 	}
-	return s.subString(0,spaceIndex);
+	return s.substring(0,spaceIndex);
 }
 
 // Do not change the code below
